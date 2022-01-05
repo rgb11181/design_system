@@ -1,0 +1,51 @@
+body {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+header h1 {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+section {
+    border: solid 2px black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+.colours div {
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 30px auto;
+    color: white;
+    width: 23%
+}
+
+.colours div p {
+    text-align: center;
+    font-weight:800
+
+}
+
+.Minty_Blue {
+    background-color: #19D9FF;
+}
+
+.Red_Hot {
+    background-color: #FF5533;
+}
+
+.Garden_Green {
+    background-color: #77FF33;
+}
+
+.Heavy_Purple {
+    background-color: #550080;
+}
