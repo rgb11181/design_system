@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Abril Fatface";
+    src: url(fonts/Abril_Fatface/AbrilFatface-Regular.ttf) format('truetype');
+    font-family: "Merriweather";
+    src: url(fonts/Merriweather/Merriweather-Regular.ttf) format('truetype');
+    font-family: "Work Sans";
+    src: url(fonts/Work_Sans/WorkSans-VariableFont_wght.ttf)
+}
+
+.Abril_Fatface {
+    font-family: 'Abril Fatface';
+}
+
+.Merriweather {
+    font-family: "Merriweather";
+}
+
+.Work_Sans  {
+    font-family: "Work Sans";
+}
+
 body {
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,4 +69,19 @@ section {
 
 .Heavy_Purple {
     background-color: #550080;
+}
+
+.Fonts {
+    display: inline-block;
+    height: 700px;
+    width: 600px;
+    vertical-align: top;
+    line-height: 2;
+}
+
+.Text_Styles {
+    display: inline-block;
+    height: 700px;
+    width: 600px;
+    vertical-align: top;
 }
