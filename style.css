@@ -4,7 +4,7 @@
     font-family: "Merriweather";
     src: url(fonts/Merriweather/Merriweather-Regular.ttf) format('truetype');
     font-family: "Work Sans";
-    src: url(fonts/Work_Sans/WorkSans-VariableFont_wght.ttf)
+    src: url(fonts/Work_Sans/WorkSans-VariableFont_wght.ttf) format('truetype')
 }
 
 .Abril_Fatface {
@@ -31,6 +31,23 @@ header h1 {
     text-align: center;
     width: 100%;
     padding: 30px 0;
+    font-family: "Work Sans";
+    font-size: 34px;    
+}
+
+h1 {
+    font-family: "Work Sans";
+    font-size: 34px;  
+}
+
+h2 {
+    font-family: "Abril Fatface";
+    font-size: 22px;  
+}
+
+p {
+    font-family: "Merriweather";
+    font-size: 14px;  
 }
 
 section {
